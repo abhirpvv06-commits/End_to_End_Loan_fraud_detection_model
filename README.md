@@ -59,11 +59,12 @@ A threshold sweep confirmed 0.5 is already F1-optimal for this model. The model 
 
 ## Artifacts
 
+- `notebooks/loan_default_prediction.ipynb` — full pipeline notebook
 - `loan_default_model_logreg.joblib` — trained model
 - `preprocessor_final.joblib` — fitted preprocessing pipeline
 - `model_metadata.json` — model card (metrics, features removed, notes)
-- `reports/final_evaluation_plots.png` — confusion matrix, ROC curve, PR curve
-- `reports/feature_audit.csv` — full feature classification audit
+- `final_evaluation_plots.png` — confusion matrix, ROC curve, PR curve
+- `feature_audit.csv` — full feature classification audit
 
 ## Tech Stack
 
