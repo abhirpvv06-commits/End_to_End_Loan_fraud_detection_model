@@ -1,0 +1,22 @@
+{
+  "model_type": "Logistic Regression (class_weight=balanced)",
+  "trained_on": "2026-07-24",
+  "train_rows": 715977,
+  "test_rows": 178995,
+  "n_features": 111,
+  "test_roc_auc": 0.7261946193128449,
+  "test_pr_auc": 0.3999147630801474,
+  "decision_threshold": 0.5,
+  "test_precision_default_class": 0.339,
+  "test_recall_default_class": 0.656,
+  "test_f1_default_class": 0.447,
+  "leakage_features_removed": [
+    "last_fico_range_high",
+    "last_fico_range_low",
+    "debt_settlement_flag",
+    "url",
+    "emp_title",
+    "title"
+  ],
+  "notes": "LightGBM was tested but underperformed Logistic Regression on this leak-free feature set and overfit quickly; Logistic Regression selected as final model."
+}
